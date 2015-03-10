@@ -61,3 +61,7 @@ gem 'gemoji', '~> 2.1.0'
 gem 'sanitize', '~> 3.0.3'
 
 gem 'paranoia', '~> 2.1.0'
+group :production do
+  gem 'pg'
+  gem 'rails_12factor', '0.0.2'
+end
